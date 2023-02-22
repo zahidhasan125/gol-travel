@@ -20,7 +20,7 @@ const Islands = () => {
                         <div className='flex items-center justify-between'>
                             <span className='flex items-center gap-2'><AiFillStar className='text-2xl text-[#3282AD]' /> 4.5</span>
                             <div className="card-actions justify-center">
-                                <button className="btn btn-xs bg-[#3282AD] rounded border-none">Book Now</button>
+                                <button className="btn btn-xs bg-[#3282AD] rounded border-none">Explore More</button>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const Islands = () => {
                         <div className='flex items-center justify-between'>
                             <span className='flex items-center gap-2'><AiFillStar className='text-2xl text-[#3282AD]' /> 4.5</span>
                             <div className="card-actions justify-center">
-                                <button className="btn btn-xs bg-[#3282AD] rounded border-none">Book Now</button>
+                                <button className="btn btn-xs bg-[#3282AD] rounded border-none">Explore More</button>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,52 @@ const Islands = () => {
                         <div className='flex items-center justify-between'>
                             <span className='flex items-center gap-2'><AiFillStar className='text-2xl text-[#3282AD]' /> 4.5</span>
                             <div className="card-actions justify-center">
-                                <button className="btn btn-xs bg-[#3282AD] rounded border-none">Book Now</button>
+                                <button className="btn btn-xs bg-[#3282AD] rounded border-none">Explore More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="card w-full bg-base-100 shadow-xl">
+                    <figure>
+                        <img className='w-full h-[240px]' src="https://gol-media.s3.ap-south-1.amazonaws.com/island/thumbnail/IMG1659515475541.jpg" alt="Shoes" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Kavaratti</h2>
+                        <p className='font-extralight text-xs'>Kavaratti is the capital of the Union Territory of Lakshadweep having ...</p>
+                        <div className='flex items-center justify-between'>
+                            <span className='flex items-center gap-2'><AiFillStar className='text-2xl text-[#3282AD]' /> 4.5</span>
+                            <div className="card-actions justify-center">
+                                <button className="btn btn-xs bg-[#3282AD] rounded border-none">Explore More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="card w-full bg-base-100 shadow-xl">
+                    <figure>
+                        <img className='w-full h-[240px]' src="https://gol-media.s3.ap-south-1.amazonaws.com/island/thumbnail/IMG1658226444099.jpeg" alt="Shoes" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Kavaratti</h2>
+                        <p className='font-extralight text-xs'>Kavaratti is the capital of the Union Territory of Lakshadweep having ...</p>
+                        <div className='flex items-center justify-between'>
+                            <span className='flex items-center gap-2'><AiFillStar className='text-2xl text-[#3282AD]' /> 4.5</span>
+                            <div className="card-actions justify-center">
+                                <button className="btn btn-xs bg-[#3282AD] rounded border-none">Explore More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="card w-full bg-base-100 shadow-xl">
+                    <figure>
+                        <img className='w-full h-[240px]' src="https://gol-media.s3.ap-south-1.amazonaws.com/island/thumbnail/IMG1659521811745.jpeg" alt="Shoes" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Kavaratti</h2>
+                        <p className='font-extralight text-xs'>Kavaratti is the capital of the Union Territory of Lakshadweep having ...</p>
+                        <div className='flex items-center justify-between'>
+                            <span className='flex items-center gap-2'><AiFillStar className='text-2xl text-[#3282AD]' /> 4.5</span>
+                            <div className="card-actions justify-center">
+                                <button className="btn btn-xs bg-[#3282AD] rounded border-none">Explore More</button>
                             </div>
                         </div>
                     </div>
