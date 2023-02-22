@@ -8,17 +8,17 @@ const Booking = () => {
     return (
         <div className='w-full my-8'>
             <h4 className='text-3xl font-bold text-center'>Where are you flying?</h4>
-            <form className="card flex-shrink-0 w-full">
+            <form className="card flex-shrink-0 w-full bg-base-100 shadow-sm shadow-[#c3d2da]">
                 <div className="card-body flex flex-col md:flex-row items-center justify-center flex-wrap gap-y-8">
                     <div className="form-control">
-                        <fieldset class="border border-solid border-gray-300 p-1 w-full rounded-xl flex gap-1">
+                        <fieldset class="border border-solid border-gray-300 p-1 w-full rounded-sm flex gap-1">
                             <legend class="text-sm">From-To</legend>
                             <input type="text" placeholder="From Where" className="input-sm" />
                             <input type="text" placeholder="To Where" className="input-sm " />
                         </fieldset>
                     </div>
                     <div className="form-control w-full md:w-auto">
-                        <fieldset class="border border-solid border-gray-300 p-1 rounded-xl">
+                        <fieldset class="border border-solid border-gray-300 p-1 rounded-sm">
                             <legend class="text-sm">Trip</legend>
                             <select className="select-sm w-full">
                                 <option disabled selected>Pick your Trip Type</option>
@@ -31,7 +31,7 @@ const Booking = () => {
                         </fieldset>
                     </div>
                     <div className="form-control">
-                        <fieldset class="border border-solid border-gray-300 p-1 rounded-xl flex gap-1">
+                        <fieldset class="border border-solid border-gray-300 p-1 rounded-sm flex gap-1">
                             <legend class="text-sm">Depart- Return</legend>
                             <DatePicker
                                 className='input-sm w-full'
@@ -48,14 +48,14 @@ const Booking = () => {
                         </fieldset>
                     </div>
                     <div className="form-control">
-                        <fieldset class="border border-solid border-gray-300 p-1 rounded-xl flex gap-1">
+                        <fieldset class="border border-solid border-gray-300 p-1 rounded-sm flex gap-1">
                             <legend class="text-sm">Passenger - Class</legend>
                             <input type="text" placeholder="Passenger" className="input-sm " />
                             <input type="text" placeholder="Class" className="input-sm " />
                         </fieldset>
                     </div>
                     <div className="form-control">
-                        <div class="p-1 rounded-xl flex gap-1">
+                        <div class="p-1 rounded-sm flex gap-1">
                             <input type="text" placeholder="+ Add Promo Code" className="input-sm border-none" />
                         </div>
                     </div>

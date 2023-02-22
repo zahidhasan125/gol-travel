@@ -18,7 +18,7 @@ const Banner = () => {
                     </span>
                     Islands
                 </h1>
-                <button className='btn btn-outline hover:bg-[#3282AD] hover:border-none mt-8'>Discover Now</button>
+                <button className='btn btn-outline-[#3282AD] hover:bg-[#3282AD] hover:border-none mt-8'>Discover Now</button>
             </div>
         </div>
     );
