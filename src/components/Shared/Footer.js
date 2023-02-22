@@ -5,14 +5,16 @@ const Footer = () => {
     return (
         <div className=''>
             {/* Download our app */}
-            <div className='flex justify-between items-center gap-4 bg-neutral-900 relative rounded-xl px-4 md:px-16 py-8 mx-24 z-20'>
-                <div className='text-neutral-100 flex flex-col gap-6'>
-                    <h2 className='text-4xl'>Download Our App</h2>
-                    <p className='text-xs'>The best travel in the world</p>
-                    <img className='w-[210px]' src="https://i.ibb.co/LgjVT5t/png-transparent-android-google-play-app-store-google-play-text-computer-logo-thumbnail-removebg-prev.png" alt="download app" />
+            <div className='flex justify-between items-center gap-4 bg-neutral-900 relative rounded-xl px-4 md:px-16 py-8 mx-6 md:mx-20 lg:mx-24 z-20'>
+                <div className='text-neutral-100 flex md:flex-col gap-6 items-center md:items-start'>
+                    <div>
+                        <h2 className='text:xl font-bold md:text-4xl'>Download Our App</h2>
+                        <p className='text-xs'>The best travel in the world</p>
+                    </div>
+                    <img className='w-1/3 md:2/3 h-2/3 border rounded-md' src="https://i.ibb.co/LgjVT5t/png-transparent-android-google-play-app-store-google-play-text-computer-logo-thumbnail-removebg-prev.png" alt="download app" />
                 </div>
                 <div className='hidden md:inline-block mt-[-120px]'>
-                    <img className='w-1/2 mx-auto' src="https://i.ibb.co/M1VNx6v/smart-phone-smartphone-n1-PD9-VB-600-removebg-preview.png" alt="" />
+                    <img className='w-2/3 mx-auto border rounded-xl border-neutral-50' src="https://i.ibb.co/M1VNx6v/smart-phone-smartphone-n1-PD9-VB-600-removebg-preview.png" alt="" />
                 </div>
             </div>
             {/* Footer Section */}
