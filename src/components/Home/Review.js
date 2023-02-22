@@ -31,7 +31,7 @@ const Review = () => {
                 <div className="card max-w-[400px] bg-base-100 shadow-xl">
                     <div className="avatar w-24 mx-auto">
                         <div className="w-24 rounded-full">
-                            <img src="https://www.golakshadweep.com/assets/new-theme/img/testimonial-1.jpg" />
+                            <img alt='customer-avatar' src="https://www.golakshadweep.com/assets/new-theme/img/testimonial-1.jpg" />
                         </div>
                     </div>
                     <div className="card-body items-center text-center">
@@ -50,7 +50,7 @@ const Review = () => {
                 <div className="card max-w-[400px] bg-base-100 shadow-xl">
                     <div className="avatar w-24 mx-auto">
                         <div className="w-24 rounded-full">
-                            <img src="https://www.golakshadweep.com/assets/new-theme/img/testimonial-2.jpg" />
+                            <img alt='customer-avatar' src="https://www.golakshadweep.com/assets/new-theme/img/testimonial-2.jpg" />
                         </div>
                     </div>
                     <div className="card-body items-center text-center">
@@ -69,7 +69,7 @@ const Review = () => {
                 <div className="card max-w-[400px] bg-base-100 shadow-xl">
                     <div className="avatar w-24 mx-auto">
                         <div className="w-24 rounded-full">
-                            <img src="https://www.golakshadweep.com/assets/new-theme/img/testimonial-3.jpg" />
+                            <img alt='customer-avatar' src="https://www.golakshadweep.com/assets/new-theme/img/testimonial-3.jpg" />
                         </div>
                     </div>
                     <div className="card-body items-center text-center">
@@ -88,7 +88,7 @@ const Review = () => {
                 <div className="card max-w-[400px] bg-base-100 shadow-xl">
                     <div className="avatar w-24 mx-auto">
                         <div className="w-24 rounded-full">
-                            <img src="https://www.golakshadweep.com/assets/new-theme/img/testimonial-4.jpg" />
+                            <img alt='customer-avatar' src="https://www.golakshadweep.com/assets/new-theme/img/testimonial-4.jpg" />
                         </div>
                     </div>
                     <div className="card-body items-center text-center">
@@ -107,7 +107,7 @@ const Review = () => {
                 <div className="card max-w-[400px] bg-base-100 shadow-xl">
                     <div className="avatar w-24 mx-auto">
                         <div className="w-24 rounded-full">
-                            <img src="https://www.golakshadweep.com/assets/new-theme/img/testimonial-2.jpg" />
+                            <img alt='customer-avatar' src="https://www.golakshadweep.com/assets/new-theme/img/testimonial-2.jpg" />
                         </div>
                     </div>
                     <div className="card-body items-center text-center">

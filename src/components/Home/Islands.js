@@ -1,6 +1,5 @@
 import React from 'react';
 import { AiFillStar } from 'react-icons/ai';
-import { FiMapPin } from 'react-icons/fi';
 
 const Islands = () => {
     return (

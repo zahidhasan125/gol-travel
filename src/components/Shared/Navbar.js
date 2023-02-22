@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const menuItems = <>
-        <li><a>Find Reservations</a></li>
+        <li><Link to="/bookings" >Find Reservations</Link></li>
         <li tabIndex={0} className='dropdown'>
             <a>
                 Packages
