@@ -3,7 +3,7 @@ import { FiMapPin } from 'react-icons/fi';
 import { AiFillStar } from 'react-icons/ai';
 const Packages = () => {
     return (
-        <div className='px-8 my-16'>
+        <div className='px-4 md:px-8 my-16'>
             <div className='text-center'>
                 <h3 className='text-4xl font-bold mb-6'>Best Packages For You</h3>
                 <p className='font-extralight'>This is a unique experience on ship, sea and land, exploring different coral islands of Lakshadweep.</p>
