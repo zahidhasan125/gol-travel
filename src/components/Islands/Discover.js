@@ -2,7 +2,7 @@ import React from 'react';
 import {SlArrowRight} from 'react-icons/sl'
 const Discover = () => {
     return (
-        <div className='bg-[#F6FDFF] w-[90%] mx-auto md:mb-24'>
+        <div className='bg-[#F6FDFF] w-[90%] mx-auto'>
             <div className="hero min-h-screen">
                 <div className="hero-content w-full flex flex-col md:flex-row">
                     <div className='md:max-w-md'>
