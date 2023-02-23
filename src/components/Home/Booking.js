@@ -11,13 +11,13 @@ const Booking = () => {
             <form className="card flex-shrink-0 w-full bg-base-100 shadow-sm shadow-[#c3d2da]">
                 <div className="card-body flex flex-col md:flex-row items-center justify-center flex-wrap gap-y-8">
                     <div className="form-control">
-                        <fieldset className="border border-solid border-gray-300 p-1 w-full rounded-sm flex gap-1">
+                        <fieldset className="border border-solid border-gray-300 p-1 w-full rounded-sm flex flex-col md:flex-row gap-1">
                             <legend className="text-sm">From-To</legend>
                             <input type="text" placeholder="From Where" className="input-sm" />
                             <input type="text" placeholder="To Where" className="input-sm " />
                         </fieldset>
                     </div>
-                    <div className="form-control w-full md:w-auto">
+                    <div className="form-control md:w-auto">
                         <fieldset className="border border-solid border-gray-300 p-1 rounded-sm">
                             <legend className="text-sm">Trip</legend>
                             <select className="select-sm w-full">
@@ -31,7 +31,7 @@ const Booking = () => {
                         </fieldset>
                     </div>
                     <div className="form-control">
-                        <fieldset className="border border-solid border-gray-300 p-1 rounded-sm flex gap-1">
+                        <fieldset className="border border-solid border-gray-300 p-1 rounded-sm flex flex-col md:flex-row gap-1">
                             <legend className="text-sm">Depart- Return</legend>
                             <DatePicker
                                 className='input-sm w-full'
@@ -48,7 +48,7 @@ const Booking = () => {
                         </fieldset>
                     </div>
                     <div className="form-control">
-                        <fieldset className="border border-solid border-gray-300 p-1 rounded-sm flex gap-1">
+                        <fieldset className="border border-solid border-gray-300 p-1 rounded-sm flex flex-col md:flex-row gap-1">
                             <legend className="text-sm">Passenger - Class</legend>
                             <input type="text" placeholder="Passenger" className="input-sm " />
                             <input type="text" placeholder="Class" className="input-sm " />

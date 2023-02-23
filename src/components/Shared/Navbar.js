@@ -11,10 +11,10 @@ const Navbar = () => {
             </a>
         </li>
         <li tabIndex={0}>
-            <a>
+            <Link to="/islands">
                 About Lakshadweep
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
-            </a>
+            </Link>
         </li>
         <li><a>About Us</a></li>
         <li><a>Gol</a></li>
@@ -35,14 +35,14 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl"><img className='w-20' src="https://i.ibb.co/GdbXs3K/image.png" alt="logo" /></a>
+                <Link to="/" className="btn btn-ghost normal-case text-xl"><img className='w-20' src="https://i.ibb.co/GdbXs3K/image.png" alt="logo" /></Link>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {menuItems}
                     </ul>
                 </div>
                 <div className=''>
-                    <div className="navbar-end flex items-center">
+                    <div className="navbar-end flex lg:gap-4 items-center">
                         <a className="mr-1 cursor-pointer text-[#3282AD]">Login</a>
                         <a className="btn bg-[#3282AD] rounded-full border-none hidden lg:flex">Sign Up</a>
                     </div>
