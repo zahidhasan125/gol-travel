@@ -1,7 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useAuthContext } from '../../contexts/AuthContext';
+import { removeToken } from '../../helpers';
 
 const Navbar = () => {
+    const { user, setUser } = useAuthContext();
+    const navigate = useNavigate();
+
+    const handleLogout = () => {
+        removeToken();
+        setUser(undefined);
+        console.log(user);
+        navigate("/login", { replace: true });
+    };
     const menuItems = <>
         <li><Link to="/bookings" >Find Reservations</Link></li>
         <li tabIndex={0} className='dropdown'>
@@ -42,10 +53,17 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className=''>
-                    <div className="navbar-end flex lg:gap-4 items-center">
-                        <a className="mr-1 cursor-pointer text-[#3282AD]">Login</a>
-                        <a className="btn bg-[#3282AD] rounded-full border-none hidden lg:flex">Sign Up</a>
+                    {
+                        user ? <div className="navbar-end flex lg:gap-4 items-center">
+                        <Link to="/dashboard" className="mr-1 cursor-pointer text-[#3282AD]">Profile</Link>
+                        <a onClick={handleLogout} className="btn bg-[#3282AD] rounded-full border-none hidden lg:flex">Log Out</a>
                     </div>
+                    :
+                    <div className="navbar-end flex lg:gap-4 items-center">
+                        <Link to="/login" className="mr-1 cursor-pointer text-[#3282AD]">Login</Link>
+                        <Link to="/signup" className="btn bg-[#3282AD] rounded-full border-none hidden lg:flex">Sign Up</Link>
+                    </div>
+                    }
                     <div className="">
                         <div className="dropdown dropdown-end hidden md:block">
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">

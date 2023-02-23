@@ -8,13 +8,19 @@ import { router } from './routes/Routes';
 import 'animate.css';
 import "react-datepicker/dist/react-datepicker.css";
 import "react-multi-carousel/lib/styles.css";
+import 'antd/dist/reset.css';
+import { Toaster } from 'react-hot-toast';
+import AuthProvider from './components/AuthProvider/AuthProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}>
-      <App />
-    </RouterProvider>
+    <AuthProvider>
+      <RouterProvider router={router}>
+        <App />
+        <Toaster />
+      </RouterProvider>
+    </AuthProvider>
   </React.StrictMode>
 );
 

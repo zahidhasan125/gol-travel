@@ -14,7 +14,7 @@ const Footer = () => {
                     <img className='w-1/3 md:2/3 h-2/3 border rounded-md' src="https://i.ibb.co/LgjVT5t/png-transparent-android-google-play-app-store-google-play-text-computer-logo-thumbnail-removebg-prev.png" alt="download app" />
                 </div>
                 <div className='hidden md:inline-block mt-[-120px]'>
-                    <img className='w-2/3 mx-auto border rounded-xl border-neutral-50' src="https://i.ibb.co/M1VNx6v/smart-phone-smartphone-n1-PD9-VB-600-removebg-preview.png" alt="" />
+                    <img className='w-2/3 mx-auto border rounded-xl border-neutral-50 border-t-0' src="https://i.ibb.co/M1VNx6v/smart-phone-smartphone-n1-PD9-VB-600-removebg-preview.png" alt="" />
                 </div>
             </div>
             {/* Footer Section */}
