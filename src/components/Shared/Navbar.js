@@ -55,7 +55,7 @@ const Navbar = () => {
                 <div className=''>
                     {
                         user ? <div className="navbar-end flex lg:gap-4 items-center">
-                        <Link to="/dashboard" className="mr-1 cursor-pointer text-[#3282AD]">Profile</Link>
+                        <Link to="/dashboard" className="mr-1 cursor-pointer text-[#3282AD]">Dashboard</Link>
                         <a onClick={handleLogout} className="btn bg-[#3282AD] rounded-full border-none hidden lg:flex">Log Out</a>
                     </div>
                     :

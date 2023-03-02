@@ -1,4 +1,4 @@
-import { Alert, Button, Card, Col, Form, Input, Row, Spin, Typography } from 'antd';
+import { Alert, Button, Card, Col, Form, Input, message, Row, Spin, Typography } from 'antd';
 import React, { Fragment, useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { Link, useNavigate } from 'react-router-dom';
@@ -16,8 +16,6 @@ const SignUpForm = () => {
     const navigate = useNavigate();
 
     const onFinish = async (values) => {
-
-        console.log(values);
         try {
             const response = await fetch(`${API}/auth/local/register`, {
                 method: "POST",
@@ -37,7 +35,7 @@ const SignUpForm = () => {
                 // set the user
                 setUser(data.user);
 
-                toast.success(`Welcome to Social Cards ${data.user.username}!`);
+                message.success(`Welcome to Social Cards ${data.user.username}!`);
 
                 navigate("/profile", { replace: true });
             }
