@@ -30,6 +30,9 @@ const Navbar = () => {
         <li><a>About Us</a></li>
         <li><a>Gol</a></li>
         <li><a>Support</a></li>
+        {
+            user && <li><a onClick={handleLogout} className="btn bg-[#3282AD] rounded-full border-none lg:hidden">Log Out</a></li>
+        }
     </>
     return (
         <div className='' style={{
